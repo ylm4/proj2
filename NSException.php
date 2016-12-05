@@ -27,20 +27,10 @@ class files {
 		}
 	}
 }
-/*
-	try {
-		if (!file_exists($file)) {
-		throw new Exception ("Error: File Does Not Exist");
-		}
-	}	 
-	catch (Exception $e) {
-		echo $e->getMessage();
-	}
-*/
 $fp = new files();
 $fp->open($file);
 
-
+//will read file that does exist. 
 
 
 ?>
